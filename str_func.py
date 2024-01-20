@@ -1,7 +1,15 @@
 def remake_to_upper(str_):
     '''
-    На GitHub:
-    Добавьте docstring к функции из предыдущего задания (прямо в ветке develop).
-     Этим вы сымитируете проделанную работу другого разработчика над этим же модулем.
+    :param str_:
+    :return:
+    123456
     '''
     return str_.upper()
+
+def remake_to_title(str_):
+    '''
+    :param str_:
+    :return:
+    Добавьте к функции docstring.
+    '''
+    return str_.title()
